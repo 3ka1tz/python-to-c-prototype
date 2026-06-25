@@ -4,7 +4,7 @@ import tracemalloc  # <- Para medir la eficiencia de la memoria RAM
 
 # Asegurar que el usuario tiene el archivo de prueba de texto normal
 try:
-    import prueba_texto
+    import text_sample
 except ImportError:
     print("❌ Error: No se encuentra 'prueba_texto.py'.")
     print("👉 Asegúrate de que existe el archivo con la función 'cifrar_texto'.")
@@ -42,7 +42,7 @@ def run_crypto_benchmark():
     tracemalloc.start()  # Iniciar rastreador de memoria
     start_py = time.perf_counter()
     
-    resultado_py = prueba_texto.cifrar_texto(datos_binarios, desplazamiento)
+    resultado_py = text_sample.cifrar_texto(datos_binarios, desplazamiento)
     
     end_py = time.perf_counter()
     _, peak_ram_py = tracemalloc.get_traced_memory()  # Capturar pico de RAM
