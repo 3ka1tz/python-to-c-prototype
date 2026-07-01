@@ -61,7 +61,12 @@ pip install -r requirements.txt
 
 10. Use the translator
 ```bash
-python3 translator.py test.py
+python3 translator.py data_sample.py
+```
+
+11. Check the results
+```bash
+python3 data_perf.py
 ```
 
 ## Resources
