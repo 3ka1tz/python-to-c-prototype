@@ -12,6 +12,17 @@ As Python's popularity continues to grow, many organizations face trade-offs in 
 
 As the data demonstrates, the efficiency gap between C and Python is substantial, with C consistently ranking as the top-tier option. This project bridges that gap, helping organizations reduce operational costs and minimize environmental emissions.
 
+### Results
+
+Case 1:  
+![Data performance test](data_perf.jpg)
+
+Case 2:  
+![Math performance test](math_perf.jpg)
+
+Case 3:  
+![Text performance text](text_perf.jpg)
+
 ## Instructions
 
 1. Update the system
