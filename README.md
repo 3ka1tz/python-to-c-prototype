@@ -14,6 +14,55 @@ As the data demonstrates, the efficiency gap between C and Python is substantial
 
 ## Instructions
 
+1. Update the system
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+2. Install curl command
+```bash
+sudo apt install curl -y
+```
+
+3. Install ollama
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+4. Install desired AI model
+```bash
+ollama run qwen2.5-coder:7b
+```
+
+5. Create virtual environment
+```bash
+python3 -m venv venv
+```
+
+6. Activate the virtual environment
+```bash
+source venv/bin/activate
+```
+
+7. Install git command
+```bash
+sudo apt install git -y
+```
+
+8. Clone the repository
+```bash
+git clone https://github.com/3ka1tz/ai-python-to-c-translator
+```
+
+9. Install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+10. Use the translator
+```bash
+python3 translator.py test.py
+```
 
 ## Resources
 
